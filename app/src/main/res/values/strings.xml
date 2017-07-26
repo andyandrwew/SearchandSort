@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sort and Search</string>
+    <string name="arrSize" />
+    <string name="searchInt" />
+    <string name="min" />
+    <string name="max" />
+</resources>

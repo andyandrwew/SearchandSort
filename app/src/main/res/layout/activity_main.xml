@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="searchandsort.andrew.com.sortandsearch.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <GridLayout
+        android:layout_width="393dp"
+        android:layout_height="524dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-7dp">
+
+        <EditText
+            android:id="@+id/arrSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Array size:"
+            android:inputType="number"
+            android:text="@string/arrSize" />
+
+        <EditText
+            android:id="@+id/searchInt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:ems="10"
+            android:hint="Number to find"
+            android:inputType="number"
+            android:text="@string/searchInt" />
+
+        <EditText
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:ems="10"
+            android:hint="Minimum range"
+            android:inputType="number"
+            android:text="@string/min" />
+
+        <EditText
+            android:id="@+id/max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:ems="10"
+            android:hint="Maximum range"
+            android:inputType="number"
+            android:text="@string/max" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:text="Run"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="292dp"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:contentDescription="output"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
